@@ -1,12 +1,6 @@
-// public class Solution {
-//     public bool IsPalindrome(int x) {
-        
-//     }
-// }
 
 public class Solution {
     public bool IsPalindrome(int x) {
-        // Negative numbers are not palindrome
         if (x < 0) return false;
 
         int original = x;
